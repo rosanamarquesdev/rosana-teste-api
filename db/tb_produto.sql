@@ -38,3 +38,7 @@ JOIN tb_categoria ON tb_categoria.id = tb_produto.categoria_id;
 
 
 -- COMO FAZER ROTAS --
+-- BOTEI NAS ROTAS MAS NO MYQL mostra normal
+
+        SELECT * FROM tb_endereco 
+        JOIN tb_cliente ON tb_cliente.id = tb_endereco.cliente_id;
