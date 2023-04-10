@@ -1,9 +1,7 @@
 -- CRIAR BANCO --
-CREATE DATABASE db_testes2;
+CREATE DATABASE db_projeto_final;
 -- USAR O BANCO --
-USE db_testes2;
-
-
+USE db_projeto_final;
 
 
 

@@ -9,3 +9,8 @@ CREATE TABLE tb_cliente (
     created_at TIMESTAMP  DEFAULT CURRENT_TIMESTAMP, 
     updated_at DATETIME DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
 );
+
+INSERT INTO tb_cliente
+    (nome, cpf, email, celular, senha)
+VALUES
+    ('Rosana Marques', '12312312312', 'rosana@gmail.com', '85988889999', '1234');

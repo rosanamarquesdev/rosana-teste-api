@@ -11,3 +11,8 @@ INSERT INTO tb_categoria
     (titulo, descricao) 
 VALUES
     ('Camisetas', 'Camisetas de varios estilos');
+
+INSERT INTO tb_categoria 
+    (titulo, descricao) 
+VALUES
+    ('Calcas', 'Calcas de varios estilos');
